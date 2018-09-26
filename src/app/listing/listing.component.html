@@ -1,0 +1,29 @@
+<div class="container">
+<table class="table">
+  <thead>
+      <form>
+          <input  placeholder="new task" 
+                  [(ngModel)]="newTask"
+                  [ngModelOptions]="{standalone: true}"
+                  type="texte"
+                  id="newTask"  >
+
+          <button (click)="insert()">Insert</button>
+</form>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Task</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+
+      <tr  *ngFor="let task of tasks ">
+        <td>{{task.id}}</td>
+        <td><a href="task_description">{{task.nom}}</a></td>
+        <td>{{task.status}}</td>
+      </tr>
+
+  </tbody>
+</table>
+</div>
