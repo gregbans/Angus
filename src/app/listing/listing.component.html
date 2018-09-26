@@ -1,3 +1,5 @@
+<app-menu></app-menu>
+
 <div class="container">
 <table class="table">
   <thead>
@@ -18,9 +20,10 @@
       <th scope="col">Status</th>
     </tr>
   </thead>
+  
   <tbody>
 
-      <tr  *ngFor="let task of tasks ">
+      <tr *ngFor="let task of tasks ">
         <td>{{task.id}}</td>
         <td><a routerLink="/listing/{{task.id}}">{{task.nom}}</a></td>
         <td>{{task.status}}</td>

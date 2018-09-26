@@ -15,13 +15,13 @@ tasks = [
   {
     id: 1,
     nom : "Tout mettre dans l'éléve",
-    description: "Lorsque on un probleme avec un singleton, autant fourré l'éléve de toutes les fonction disponible en pretant attention à se montrer courtois et généreux",
+    description: "Lorsque on a un probleme avec un singleton, autant fourré l'éléve de toutes les fonctions disponibles en pretant attention à se montrer courtois et généreux",
     status : 2,
   },
   {
     id: 2,
     nom : "Lui dire ftg fdp",
-    description: "Arrivé à saturation de Sandrine, se rendre à l'evidence de son incompetence et lui signifier que la derniere chose coherante etant sorti de sa bouche est certainement un penis ",
+    description: "Arrivé à saturation, se rendre à l'evidence de son incompétence. ",
     status : 2,
   }
 ]
