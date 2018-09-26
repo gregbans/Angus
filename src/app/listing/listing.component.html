@@ -20,7 +20,7 @@
 
       <tr  *ngFor="let task of tasks ">
         <td>{{task.id}}</td>
-        <td><a href="task_description">{{task.nom}}</a></td>
+        <td><a routerLink="/listing/{{task.id}}">{{task.nom}}</a></td>
         <td>{{task.status}}</td>
       </tr>
 

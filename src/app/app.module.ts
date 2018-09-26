@@ -8,7 +8,6 @@ import { ListingComponent } from './listing/listing.component';
 import { TaskComponent } from './task/task.component';
 import { PasswordComponent } from './password/password.component';
 import { AppRoutingModule } from './/app-routing.module';
-import { PageConnexionComponent } from './page-connexion/page-connexion.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +16,6 @@ import { PageConnexionComponent } from './page-connexion/page-connexion.componen
     ListingComponent,
     TaskComponent,
     PasswordComponent,
-    PageConnexionComponent
   ],
   imports: [
     FormsModule,

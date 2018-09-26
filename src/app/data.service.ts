@@ -21,7 +21,7 @@ tasks = [
   {
     id: 2,
     nom : "lui dire ftg fdp",
-    description: "arrivé à saturation d'un de sandrine, se rendre à l'evidence de son competence, et lui signifier que la derniere chose coherante etant sorti de sa bouche est certainement un penis ",
+    description: "arrivé à saturation de sandrine, se rendre à l'evidence de son incompetence et lui signifier que la derniere chose coherante etant sorti de sa bouche est certainement un penis ",
     status : 2,
   }
 ]

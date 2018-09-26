@@ -10,7 +10,7 @@ const routes: Routes =[
   {path:'', redirectTo: '/password', pathMatch: 'full'},
   {path:'password', component: PasswordComponent},
   {path:'listing', component: ListingComponent},
-  {path:'task_description', component: TaskComponent},
+  {path:'listing/:idTask', component: TaskComponent},
 ]
 
 @NgModule({
