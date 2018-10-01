@@ -7,7 +7,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ListingComponent } from './listing/listing.component';
 import { TaskComponent } from './task/task.component';
 import { PasswordComponent } from './password/password.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
